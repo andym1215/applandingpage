@@ -66,10 +66,12 @@ p {
     text-align:center;
   }
 .title-image {
-    position: static;
-    transform: rotate(0);
+    position:static;
+    transform:rotate(0);
+    left:0;
   }
 }
+
 .btn {
   background-color: #b83b5e;
   color: #fff;
@@ -140,7 +142,8 @@ p {
   margin: 20px;
 }
 .title-image {
-  width: 70%;
-  transform: rotate(25deg);
-  right: 10%;
+  width: 65%;
+  position:relative;
+  left: 15%;
+  transform:rotate(15deg);
 }
